@@ -46,7 +46,7 @@
             "colorScheme": "Campbell",
             "cursorColor": "#FFFFFF",
             "cursorShape": "bar",
-            "font":
+            "font": 
             {
                 "face": "MesloLGM Nerd Font"
             }
@@ -63,27 +63,22 @@
             {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "Windows PowerShell"
+                "name": "PowerShell 5"
             },
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
             },
-            
             {
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
+                "guid": "{af66e5fb-cc4d-45e2-b7a4-3dc417bad478}",
                 "hidden": false,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
-                "hidden": true,
-                "name": "Visual Studio Debug Console",
-                "source": "VSDebugConsole"
-            },
-
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell 7",
+                "startingDirectory": "%USERPROFILE%",
+                "tabTitle": null
+            }
         ]
     },
     "schemes": 
@@ -319,49 +314,5 @@
             "yellow": "#7C7C99"
         }
     ],
-    "themes": 
-    [
-        {
-            "name": "legacyDark",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "dark",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacyLight",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "light",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacySystem",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "system",
-                "useMica": false
-            }
-        }
-    ]
+    "themes": []
 }
