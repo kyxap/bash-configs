@@ -5,7 +5,7 @@
 1) Install fonts (e.g. Meslo) `oh-my-posh font install meslo`
 1) Put `.bashrc` and `.bash_aliases` in $HOME
 1) Put `Microsoft.PowerShell_profile.ps1` in: `C:\Users\<user>\Documents\PowerShell` for PowerShell 7 and into `C:\Users\<user>\Documents\WindowsPowerShell` for PowerShell 5
-1) Use `settigs.json` to setup windows terminal (Ctrl+Shift+,) and full replace.  
+1) Use `settigs.json` to setup windows terminal (Ctrl+Shift+,) and full replace.  (or copy block of gitbash list and make sure correct font is set look for `font`)
 
 <details>
 <summary>Click me for screenshot with example</summary>
